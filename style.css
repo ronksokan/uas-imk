@@ -1,0 +1,154 @@
+body{
+    margin-top: 30px;
+}
+
+.navbar{
+    text-transform: uppercase;
+}
+
+
+
+.jumbotron{
+    background-image: url(./img/bg1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    color: #eaeaea !important;
+}
+
+
+
+.jumbotron h1, .jumbotron p{
+
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.jumbotron h1,.navbar-brand{
+    font-family: 'Viga', sans-serif;
+}
+
+
+
+
+
+.jumbotron img{
+    width: 200px;
+    border-color: #666;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.about hr {
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+.portfolio hr{
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+section{
+    min-height: 800px;
+}
+
+.testi,.contact{
+    background-color: #eee;
+}
+
+
+.contact hr{
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+.testi hr{
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+.col-xs-4 img{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin-top: 20px;
+    border: 2px solid #666;
+}
+
+.col-xs-4 h4{
+    border-bottom: 2px solid #aaa;
+    text-transform: uppercase;
+}
+
+
+.col-xs-4 h5{
+ font-style: italic;
+}
+
+
+
+.row-testi{
+    border-top: 2px solid #666;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0p;
+    background-color: #666;
+    width: 100%;
+    height: 180px;
+    padding-top: 30px;
+}
+
+footer p{
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+@media (min-width: 992px){
+
+
+.jumbotron img{
+    width: 400px;
+}
+
+
+.nabar-header{
+    padding-left: 30px;
+}
+
+.row-about{
+    margin-top: 30px;
+}
+
+.col-xs-4 img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+.row-testi{
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.row-port{
+    margin: 10px;
+    padding-left: 10px;
+    
+}
+
+}
