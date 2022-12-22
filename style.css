@@ -29,7 +29,18 @@ body{
 }
 
 
+.thumbnail{
 
+    border-radius: 30px;
+    background-color: #aaa;
+}
+
+
+.thumbnail img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
 
 
 .jumbotron img{
